@@ -43,3 +43,8 @@ deployment to increase stability and performance.
 Any requests over the limit can easily be tracked by service like Sentry. I can also have 
 Prometheus connecting to the application every now and then to get a snapshot of cached 
 requests statistics. 
+
+### Test results:
+![Test result](https://i.ibb.co/5YZXgQW/example.png)
+
+
