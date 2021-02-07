@@ -38,3 +38,8 @@ functionality.
 
 I would also consider replacing `go-cache` with standalone Redis or Memcached
 deployment to increase stability and performance.
+
+### Monitoring: How would you monitor the server (For example, request rate per API key)?
+Any requests over the limit can easily be tracked by service like Sentry. I can also have 
+Prometheus connecting to the application every now and then to get a snapshot of cached 
+requests statistics. 
